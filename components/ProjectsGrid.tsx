@@ -7,11 +7,9 @@ export default function ProjectsGrid() {
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
       {projects.map((p) => {
         const imgMode =
-          p.thumbMode === "contain"
-            ? "object-contain bg-white p-3"
-            : "object-cover";
+          p.thumbMode === "contain" ? "object-contain bg-white p-3" : "object-cover";
         return (
-          <div key={p.slug} className="card">
+          <div key={p.slug} className="card h-full flex flex-col">
             {/* Thumbnail with logo overlay */}
             <div className="relative mb-3">
               <img
@@ -28,7 +26,6 @@ export default function ProjectsGrid() {
               )}
             </div>
 
-            {/* Title (작은 로고 제거) */}
             <h3 className="text-base font-semibold">{p.title}</h3>
             {p.period && <div className="meta">{p.period}</div>}
 
@@ -50,29 +47,30 @@ export default function ProjectsGrid() {
 
             <div className="mt-3 flex flex-wrap gap-2">
               {p.tags.map((t) => (
-                <span key={t} className="pill">
-                  {t}
-                </span>
+                <span key={t} className="pill">{t}</span>
               ))}
             </div>
 
-            <div className="mt-3 flex gap-2">
+            {/* CTA区域: 항상 카드 하단 */}
+            <div className="mt-4 flex gap-2 pt-1">
               {p.caseStudy && (
                 <a
                   href={p.caseStudy}
-                  className="rounded-xl px-3 py-2 border border-gray-200 hover:border-accent"
+                  className="btn btn-outline"
+                  aria-label={`View case study: ${p.title}`}
                 >
-                  View case study
+                  View case study →
                 </a>
               )}
               {p.url && (
                 <a
                   href={p.url}
                   target="_blank"
-                  rel="noreferrer"
-                  className="rounded-xl px-3 py-2 bg-accent text-white"
+                  rel="noopener noreferrer"
+                  className="btn btn-primary"
+                  aria-label={`Visit site: ${p.title}`}
                 >
-                  Visit site
+                  Visit site ↗
                 </a>
               )}
             </div>
