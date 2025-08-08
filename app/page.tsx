@@ -1,3 +1,4 @@
+import ProjectsGrid from "../components/ProjectsGrid";
 export default function Page() {
   return (
     <main>
