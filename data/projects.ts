@@ -29,7 +29,7 @@ export const projects: Project[] = [
     impact: "Enabled stable high-traffic launches for limited releases.",
     tags: ["SSO", "SAP", "APIs", "High traffic"],
     thumbnail: "/projects/converse.png",
-    caseStudy: "/work/cafe24-dev",
+    caseStudy: "/work/converse",
   },
   {
     slug: "cafe24-dev",
@@ -47,6 +47,7 @@ export const projects: Project[] = [
       "Launched an app-store model reducing customization costs by ~90% and growing market share by ~10%.",
     tags: ["APIs", "Platform", "Ecosystem", "Docs"],
     thumbnail: "/projects/cafe24-dev.png",
+    caseStudy: "/work/cafe24-dev",
   },
   {
     slug: "spao",
