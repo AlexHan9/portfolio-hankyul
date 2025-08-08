@@ -6,7 +6,16 @@
 body { color:var(--fg); background:var(--bg); }
 .container { @apply max-w-5xl mx-auto px-4 md:px-6; }
 .card { @apply bg-white border border-gray-200 rounded-2xl p-5; }
-.pill { @apply inline-block border border-gray-200 rounded-full px-3 py-1 text-sm mr-2 mt-1; }
+.pill { @apply inline-block rounded-full bg-gray-100 text-gray-700 px-2.5 py-1 text-xs mr-2 mt-1; }
 .navlink { @apply ml-4 hover:text-accent; }
 .meta { @apply text-gray-500 text-sm; }
 a.uline { @apply underline text-accent; }
+
+/* === Buttons === */
+.btn { @apply inline-flex items-center justify-center rounded-xl px-3.5 py-2.5 text-sm font-medium transition-shadow shadow-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60; }
+.btn-primary { @apply bg-accent text-white hover:shadow-md; }
+.btn-outline { @apply border border-gray-300 bg-white hover:border-accent; }
+.btn-sm { @apply px-3 py-1.5 text-sm; }
+
+/* 카드 살짝 리프트 */
+.card:hover { @apply shadow-sm; }
