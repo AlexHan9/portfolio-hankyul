@@ -9,6 +9,7 @@ export type Project = {
   impact?: string;
   tags: string[];
   thumbnail?: string; // /projects/xxx.png
+  caseStudy?: string;
 };
 
 export const projects: Project[] = [
@@ -28,6 +29,7 @@ export const projects: Project[] = [
     impact: "Enabled stable high-traffic launches for limited releases.",
     tags: ["SSO", "SAP", "APIs", "High traffic"],
     thumbnail: "/projects/converse.png",
+    caseStudy: "/work/cafe24-dev",
   },
   {
     slug: "cafe24-dev",
