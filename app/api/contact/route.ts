@@ -1,4 +1,5 @@
 // app/api/contact/route.ts
+import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -12,15 +13,13 @@ function esc(s: string) {
 export async function POST(req: Request) {
   try {
     const { name, email, message } = await req.json();
-
     if (!name || !email || !message) {
-      return new Response(JSON.stringify({ error: "Missing fields" }), { status: 400 });
+      return NextResponse.json({ error: "Missing fields" }, { status: 400 });
     }
 
-    const to = process.env.EMAIL_TO || "hankyulbaik@gmail.com";
-    const from = process.env.EMAIL_FROM || "Portfolio Contact <onboarding@resend.dev>";
+    const to = process.env.EMAIL_TO ?? "hankyulbaik@gmail.com";
+    const from = process.env.EMAIL_FROM ?? "Portfolio Contact <onboarding@resend.dev>";
 
-    // send email
     await resend.emails.send({
       from,
       to,
@@ -36,9 +35,9 @@ export async function POST(req: Request) {
       text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
     } as any);
 
-    return Response.json({ ok: true });
+    return NextResponse.json({ ok: true });
   } catch (err) {
     console.error(err);
-    return new Response(JSON.stringify({ error: "Internal Error" }), { status: 500 });
+    return NextResponse.json({ error: "Internal Error" }, { status: 500 });
   }
 }
