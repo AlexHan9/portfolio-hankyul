@@ -1,3 +1,5 @@
+// data/projects.ts
+
 export type Project = {
   slug: string;
   title: string;
@@ -9,7 +11,8 @@ export type Project = {
   impact?: string;
   tags: string[];
   thumbnail?: string; // /projects/xxx.png
-  caseStudy?: string;
+  logo?: string;      // /logos/xxx.png
+  caseStudy?: string; // /work/xxx  (optional)
 };
 
 export const projects: Project[] = [
@@ -29,6 +32,7 @@ export const projects: Project[] = [
     impact: "Enabled stable high-traffic launches for limited releases.",
     tags: ["SSO", "SAP", "APIs", "High traffic"],
     thumbnail: "/projects/converse.png",
+    logo: "/logos/converse.png",
     caseStudy: "/work/converse",
   },
   {
@@ -47,6 +51,7 @@ export const projects: Project[] = [
       "Launched an app-store model reducing customization costs by ~90% and growing market share by ~10%.",
     tags: ["APIs", "Platform", "Ecosystem", "Docs"],
     thumbnail: "/projects/cafe24-dev.png",
+    logo: "/logos/cafe24-dev.png",
     caseStudy: "/work/cafe24-dev",
   },
   {
@@ -56,25 +61,24 @@ export const projects: Project[] = [
     url: "https://spao.com/",
     summary:
       "Migrated e-commerce platform, introduced store-pickup delivery model, and implemented SSO.",
-    highlights: [
-      "Platform migration",
-      "Pickup at local store (BOPIS)",
-      "SSO across services",
-    ],
+    highlights: ["Platform migration", "Pickup at local store (BOPIS)", "SSO across services"],
     impact: "Reduced delivery friction and supported omnichannel flows.",
     tags: ["Migration", "BOPIS", "SSO"],
     thumbnail: "/projects/spao.png",
+    logo: "/logos/spao.png",
   },
   {
     slug: "olive-young",
     title: "CJ Olive Young (Global)",
     period: "Jan 2018 – Apr 2019",
     url: "https://global.oliveyoung.com/",
-    summary: "Delivered APIs and integrated SAP for the first global version of the online store.",
+    summary:
+      "Delivered APIs and integrated SAP for the first global version of the online store.",
     highlights: ["Global commerce APIs", "SAP integration"],
     impact: "Prepared the foundation for global expansion.",
     tags: ["APIs", "SAP", "Global"],
     thumbnail: "/projects/olive-young.png",
+    logo: "/logos/olive-young.png",
   },
   {
     slug: "yg-select",
@@ -87,6 +91,7 @@ export const projects: Project[] = [
     impact: "Drove 35% of $430M annual revenue via album & merch sales.",
     tags: ["E-commerce", "Chatbot", "High traffic"],
     thumbnail: "/projects/yg-select.png",
+    logo: "/logos/yg-select.png",
   },
   {
     slug: "smtown",
@@ -99,6 +104,7 @@ export const projects: Project[] = [
     impact: "Streamlined release operations across channels.",
     tags: ["Data integration", "Pre-order", "SSO"],
     thumbnail: "/projects/smtown.png",
+    logo: "/logos/smtown.png",
   },
   {
     slug: "lamy",
@@ -110,6 +116,7 @@ export const projects: Project[] = [
     impact: "Increased perceived product value and AOV.",
     tags: ["Customization", "UX"],
     thumbnail: "/projects/lamy.png",
+    logo: "/logos/lamy.png",
   },
   {
     slug: "dmall",
@@ -122,5 +129,6 @@ export const projects: Project[] = [
     impact: "Accelerated time-to-market for D2C channel.",
     tags: ["Greenfield", "Referral"],
     thumbnail: "/projects/dmall.png",
+    logo: "/logos/dmall.png",
   },
 ];
