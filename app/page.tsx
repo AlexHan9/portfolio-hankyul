@@ -59,21 +59,17 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="projects" className="mt-6">
-        <div className="card">
-          <h3 className="text-lg font-semibold">Selected Projects</h3>
-          <ul className="list-disc ml-5 mt-2">
-            <li><a className="uline" href="https://www.converse.co.kr/" target="_blank" rel="noreferrer">Nike (Converse Korea)</a> — SSO, SAP integration, raffle features.</li>
-            <li><a className="uline" href="https://developers.cafe24.com/" target="_blank" rel="noreferrer">Cafe24 Developer Center</a> — 300+ APIs, multi-lingual docs, control tower.</li>
-            <li><a className="uline" href="https://spao.com/" target="_blank" rel="noreferrer">E-Land (SPAO)</a> — migration, store-pickup delivery model, SSO.</li>
-            <li><a className="uline" href="https://global.oliveyoung.com/" target="_blank" rel="noreferrer">CJ Olive Young</a> — global mall APIs & SAP integration.</li>
-            <li><a className="uline" href="https://en.ygselect.com/" target="_blank" rel="noreferrer">YG Entertainment</a> — new e-commerce, chatbot, high-traffic ops.</li>
-            <li><a className="uline" href="https://global.shop.smtown.com/" target="_blank" rel="noreferrer">SM Entertainment</a> — chart sales integration, pre-order, SSO.</li>
-            <li><a className="uline" href="https://lamyshop.kr/" target="_blank" rel="noreferrer">LAMY</a> — custom product configurator.</li>
-          </ul>
-        </div>
-      </section>
+<section id="projects" className="mt-6">
+  <div className="mb-3">
+    <h2 className="text-xl font-semibold">Selected Projects</h2>
+    <p className="text-gray-600 text-sm">
+      Representative work across platform, APIs, and commerce.
+    </p>
+  </div>
+  <ProjectsGrid />
+</section>
 
+      
       <section id="skills" className="card mt-4">
         <h3 className="text-lg font-semibold">Skills</h3>
         <div className="mt-2">
