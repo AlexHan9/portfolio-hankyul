@@ -13,6 +13,7 @@ export type Project = {
   thumbnail?: string; // /projects/xxx.png
   logo?: string;      // /logos/xxx.png
   caseStudy?: string; // /work/xxx  (optional)
+  thumbMode?: "cover" | "contain";
 };
 
 export const projects: Project[] = [
@@ -130,5 +131,6 @@ export const projects: Project[] = [
     tags: ["Greenfield", "Referral"],
     thumbnail: "/projects/dmall.png",
     logo: "/logos/dmall.png",
+    thumbMode: "contain",
   },
 ];
