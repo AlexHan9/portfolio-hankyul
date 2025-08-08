@@ -1,3 +1,4 @@
+import ContactForm from "../components/ContactForm";
 import ProjectsGrid from "../components/ProjectsGrid";
 export default function Page() {
   return (
@@ -81,8 +82,9 @@ export default function Page() {
       <section id="contact" className="card mt-4">
         <h3 className="text-lg font-semibold">Contact</h3>
         <p>Email: <a className="uline" href="mailto:hankyulbaik@gmail.com">hankyulbaik@gmail.com</a> · LinkedIn: <a className="uline" href="https://www.linkedin.com/in/hankyul-baik/" target="_blank" rel="noreferrer">hankyul-baik</a></p>
-        <p><a className="uline" href="/resume.pdf" target="_blank" rel="noreferrer">Download Résumé (PDF)</a> — place your file as <code>public/resume.pdf</code>.</p>
+        <ContactForm />
       </section>
+
     </main>
   );
 }
