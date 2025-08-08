@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --fg:#111; --muted:#666; --bg:#f7f7f8; }
+body { color:var(--fg); background:var(--bg); }
+.container { @apply max-w-5xl mx-auto px-4 md:px-6; }
+.card { @apply bg-white border border-gray-200 rounded-2xl p-5; }
+.pill { @apply inline-block border border-gray-200 rounded-full px-3 py-1 text-sm mr-2 mt-1; }
+.navlink { @apply ml-4 hover:text-accent; }
+.meta { @apply text-gray-500 text-sm; }
+a.uline { @apply underline text-accent; }
