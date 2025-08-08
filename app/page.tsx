@@ -49,15 +49,13 @@ export default function Page() {
           </ul>
         </div>
         <div className="card">
-          <h3 className="text-lg font-semibold">WEMAKEPRICE — Project Manager</h3>
-        </div>
-        <div className="card">
-          <h3 className="text-lg font-semibold">Santoh — Service Operator</h3>
-          <div className="meta">Dec 2010 – Jul 2012</div>
-          <ul className="list-disc ml-5 mt-2">
-            <li>Handled international logistics across US, KR, VN, JP, CN, PH.</li>
-          </ul>
-        </div>
+  <h3 className="text-lg font-semibold">WEMAKEPRICE — Project Manager</h3>
+  <div className="meta">Dec 2015 – May 2017</div>
+  <ul className="list-disc ml-5 mt-2">
+    <li>Refocused Kmall24 on the U.S. market and integrated Amazon & eBay, achieving ~473% YoY revenue growth within a year.</li>
+    <li>Co-developed cross-border shipping insurance and a co-branded credit card with Shinhan Card and Mastercard, improving value for international shoppers.</li>
+  </ul>
+</div>
       </section>
 
 <section id="projects" className="mt-6">
