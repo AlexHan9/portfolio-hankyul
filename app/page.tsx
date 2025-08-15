@@ -34,6 +34,7 @@ export default function Page() {
           <div className="meta">May 2021 – Mar 2023</div>
           <ul className="list-disc ml-5 mt-2">
             <li>Launched open-API app store; 90% cost reduction for customization.</li>
+            <li>Built an internal API monitoring “watchtower”; reduced incident frequency by ~60%.</li>
             <li>Co-led global YouTube Shopping expansion (visibility↑; stock +11.78%).</li>
             <li>Resolved critical API CPU spike (90% → &lt;60%) to protect 2M+ stores.</li>
           </ul>
@@ -76,13 +77,23 @@ export default function Page() {
 
       
       <section id="skills" className="card mt-4">
-        <h3 className="text-lg font-semibold">Skills</h3>
-        <div className="mt-2">
-          {["Product Management","API Architecture","E-commerce Strategy","SDLC","Data Analysis","Confluence/Jira","GA (Certified)"].map((s)=> (
-            <span key={s} className="pill">{s}</span>
-          ))}
-        </div>
-      </section>
+  <h3 className="text-lg font-semibold">Skills</h3>
+  <div className="mt-2">
+    {[
+      // 기존
+      "Product Management", "API Architecture", "E-commerce Strategy", "SDLC",
+      "Data Analysis", "Confluence/Jira", "GA (Certified)",
+      // 추가
+      "A/B testing", "Landing-page optimization", "Promotions & discounts",
+      "Checkout & payments UX", "API integrations", "Analytics instrumentation",
+      "GA4", "Excel (VLOOKUP, Pivots)", "UTM tracking", "Budget pacing & reporting",
+    ]
+      // 대소문자 무시 중복 제거
+      .filter((v, i, arr) => arr.findIndex(x => x.toLowerCase() === v.toLowerCase()) === i)
+      .map(s => <span key={s} className="pill">{s}</span>)
+    }
+  </div>
+</section>
 
       <section id="contact" className="card mt-4">
         <h3 className="text-lg font-semibold">Contact</h3>
