@@ -4,15 +4,20 @@ export default function Page() {
   return (
     <main>
       <section className="py-8">
-        <h1 className="text-3xl font-semibold mb-2">
-          Building scalable commerce platforms & API ecosystems.
-        </h1>
-        <p className="text-gray-600">
-          10+ years leading digital transformation in e-commerce and SaaS. Launched an app-store ecosystem
-          that cut customization costs by 90% and expanded market share by 10%. Led cross-functional teams,
-          stabilized high-traffic APIs, and delivered omnichannel retail for global brands.
-        </p>
-      </section>
+  <h1 className="text-3xl font-semibold mb-2">
+    Experiment-driven Product & Growth for E-commerce / DTC.
+  </h1>
+  <p className="text-gray-600">
+    I connect promotions, checkout, and landing-page improvements to measurable outcomes.
+    Strong analytics (GA4, Excel) and cross-functional execution across Design,
+    Engineering, Marketing, and Finance.
+  </p>
+  <div className="mt-3 flex flex-wrap gap-2 text-sm">
+    <span className="pill">Customization cost −90%+</span>
+    <span className="pill">API incidents −~60%</span>
+    <span className="pill">Kmall24 revenue +473%</span>
+  </div>
+</section>
 
       <section id="experience" className="grid md:grid-cols-2 gap-4">
         <div className="card">
