@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root { --fg:#111; --muted:#666; --bg:#f7f7f8; }
-body { color:var(--fg); background:var(--bg); }
+body { 
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color:var(--fg); 
+  background:var(--bg); 
+}
 .container { @apply max-w-5xl mx-auto px-4 md:px-6; }
 .card { @apply bg-white border border-gray-200 rounded-2xl p-5; }
 .pill { @apply inline-block rounded-full bg-gray-100 text-gray-700 px-2.5 py-1 text-xs mr-2 mt-1; }

@@ -18,6 +18,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "truck-checkin",
+    title: "Zero-Cost Truck Check-in System (Full-Stack Web App)",
+    period: "Jan 2026 – Present",
+    url: "https://smart-truck-checkin.koyeb.app/",
+    summary:
+      "Architected and deployed an end-to-end yard management tool to resolve inbound logistics bottlenecks. Built the backend using Node.js & PostgreSQL (Supabase), deployed on a 24/7 Koyeb cloud server. Engineered a custom, zero-cost SMS gateway utilizing ntfy.sh (webhooks) and Android automation to bypass third-party API fees.",
+    highlights: [
+      "Node.js & PostgreSQL (Supabase) backend",
+      "24/7 Koyeb cloud server deployment",
+      "Zero-cost SMS gateway via ntfy.sh & Android automation",
+    ],
+    impact: "Resolved inbound logistics bottlenecks with a custom end-to-end tool.",
+    tags: ["Node.js", "PostgreSQL (Supabase)", "Webhooks", "Koyeb"],
+    thumbnail: "/projects/cafe24-dev.png", // Using an existing one as placeholder
+  },
+  {
     slug: "converse",
     title: "Nike (Converse Korea)",
     client: "Converse, Inc.",

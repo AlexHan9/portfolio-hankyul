@@ -2,11 +2,11 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "HanKyul Baik — Product Leader & E-commerce Consultant",
-  description: "Product leader with 10+ years in e-commerce and APIs.",
+  title: "HanKyul Baik — Senior Technical Product Manager (MBA Candidate)",
+  description: "Senior Technical Product Manager specializing in E-commerce, Logistics, and API Platforms. MBA Candidate at Kelley School of Business.",
   openGraph: {
-    title: "HanKyul Baik — Product Leader & E-commerce Consultant",
-    description: "Product leader with 10+ years in e-commerce and APIs.",
+    title: "HanKyul Baik — Senior Technical Product Manager (MBA Candidate)",
+    description: "Senior Technical Product Manager specializing in E-commerce, Logistics, and API Platforms. MBA Candidate at Kelley School of Business.",
     url: "https://portfolio-hankyul.vercel.app",
     siteName: "HanKyul Baik — Portfolio",
     images: [{ url: "/og.png", width: 1200, height: 630 }],
@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="flex items-center justify-between gap-4 py-6">
             <div>
               <strong>HanKyul Baik</strong><br />
-              <span className="text-gray-600">Product Leader • E-commerce Consultant</span>
+              <span className="text-gray-600 text-sm">Senior Technical Product Manager (MBA Candidate)</span>
             </div>
             <nav>
               <a href="#experience" className="navlink">Experience</a>
@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </header>
           {children}
           <footer className="py-10 text-gray-500 text-sm">
-            © 2025 HanKyul Baik — Los Angeles, CA
+            © 2026 HanKyul Baik — Los Angeles, CA
           </footer>
         </div>
       </body>

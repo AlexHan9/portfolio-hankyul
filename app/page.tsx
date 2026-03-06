@@ -5,17 +5,15 @@ export default function Page() {
     <main>
       <section className="py-8">
   <h1 className="text-3xl font-semibold mb-2">
-    Experiment-driven Product & Growth for E-commerce / DTC.
+    Senior Technical Product Manager (MBA Candidate) | E-commerce, Logistics & API Platforms
   </h1>
   <p className="text-gray-600">
-    I connect promotions, checkout, and landing-page improvements to measurable outcomes.
-    Strong analytics (GA4, Excel) and cross-functional execution across Design,
-    Engineering, Marketing, and Finance.
+    Strategic and hands-on Product Leader with 10+ years of experience. Currently an MBA Candidate at Kelley School of Business. Specializing in architecting zero-cost cloud solutions, authoring 300+ APIs, and aligning engineering teams to deliver scalable enterprise products.
   </p>
   <div className="mt-3 flex flex-wrap gap-2 text-sm">
-    <span className="pill">Customization cost −90%+</span>
-    <span className="pill">API incidents −~60%</span>
-    <span className="pill">Kmall24 revenue +473%</span>
+    <span className="pill">Cloud Architect (Supabase/Koyeb)</span>
+    <span className="pill">API Author (300+ Endpoints)</span>
+    <span className="pill">Zero-cost SMS gateway architecture</span>
   </div>
 </section>
 
@@ -80,10 +78,10 @@ export default function Page() {
   <h3 className="text-lg font-semibold">Skills</h3>
   <div className="mt-2">
     {[
-      // 기존
-      "Product Management", "API Architecture", "E-commerce Strategy", "SDLC",
+      "Product Management", "Technical Product Management", "API Architecture", "Solutions Engineering", "E-commerce Strategy", "SDLC",
       "Data Analysis", "Confluence/Jira", "GA (Certified)",
-      // 추가
+      "Node.js", "Express", "PostgreSQL (Supabase)", "Cloud Deployment (Koyeb/Render)", "Python", "FastAPI",
+      "LLM Orchestration", "Vector Search (FAISS/Chroma)", "Webhooks (ntfy)",
       "A/B testing", "Landing-page optimization", "Promotions & discounts",
       "Checkout & payments UX", "API integrations", "Analytics instrumentation",
       "GA4", "Excel (VLOOKUP, Pivots)", "UTM tracking", "Budget pacing & reporting",
