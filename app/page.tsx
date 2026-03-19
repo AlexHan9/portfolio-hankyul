@@ -5,52 +5,52 @@ export default function Page() {
     <main>
       <section className="py-8">
   <h1 className="text-3xl font-semibold mb-2">
-    Global IT Project Manager (IT Systems & Operations)
+    IT Product and Project Manager
   </h1>
   <p className="text-gray-600">
-    Results-driven Global IT Project Manager with 10+ years of experience leading complex, large-scale technology projects and programs across SaaS, e-commerce, and enterprise operations. Expert in utilizing appropriate project management methodologies (Agile, Scrum, Waterfall) and adhering to strict PMO guidelines to ensure projects are delivered on time, within budget, and per stakeholder requirements. Proven ability to synthesize complex technical concepts, negotiate vendor Statements of Work (SOW), and effectively present ideas to C-level executives. Highly proficient in enterprise PM tools including Jira, Smartsheet, and MS Project Pro, dedicated to establishing cross-functional collaboration and delivering strategic business objectives.
+    Data-driven IT Product and Project Manager with 10+ years of experience leading cross-functional execution across SaaS, e-commerce, and enterprise operations. Uniquely equipped with hands-on full stack development capabilities and a strong background in ERP, SCM, and CRM system integrations. Proven track record of architecting massive API ecosystems (300+ APIs), optimizing end-to-end user journeys, and leveraging data analytics to drive operational efficiency. Currently an MBA candidate combining technical grit with high-level business strategy to deliver scalable, user-centric solutions.
   </p>
   <div className="mt-3 flex flex-wrap gap-2 text-sm">
-    <span className="pill">Agile & Scrum</span>
-    <span className="pill">PMI Framework</span>
-    <span className="pill">SOW Negotiation</span>
+    <span className="pill">End-to-end SDLC</span>
+    <span className="pill">API Ecosystem Design</span>
     <span className="pill">ERP/SCM/CRM Integrations</span>
+    <span className="pill">Cross-border Logistics</span>
   </div>
 </section>
 
       <section id="experience" className="grid md:grid-cols-2 gap-4">
         <div className="card">
-          <h3 className="text-lg font-semibold">Ecoverse Solutions — IT Project Manager</h3>
-          <div className="meta">Jan 2026 – Present · City of Industry, CA</div>
+          <h3 className="text-lg font-semibold">Ecoverse Solutions — Project Manager</h3>
+          <div className="meta">Jan 2026 – Mar 2026 · City of Industry, CA</div>
           <ul className="list-disc ml-5 mt-2">
-            <li>Lead and manage complex IT projects by strictly adhering to PMO guidelines for the full lifecycle—Initiating, Planning, Executing, Monitoring & Controlling, and Closing—to successfully deliver a custom digital queuing system.</li>
-            <li>Prepare weekly project status reports and manage approved budgets, providing accurate financial forecasting and presenting real-time actionable insights to C-level executives.</li>
+            <li>Optimized Logistics Operations: Led cross-functional initiatives to streamline end-to-end yard operations, establishing API-first architectures and defining system requirements for future enterprise ERP integrations.</li>
+            <li>Process Digitization: Identified severe operational bottlenecks and successfully introduced a digital queuing system ("Smart Truck Check-in"), entirely eliminating legacy paper-based check-ins and boosting data accuracy.</li>
           </ul>
         </div>
         <div className="card">
-          <h3 className="text-lg font-semibold">Independent IT Systems Consultant</h3>
+          <h3 className="text-lg font-semibold">Addpulse — Project Manager & IT Consultant</h3>
           <div className="meta">Sep 2023 – Dec 2025 · Los Angeles, CA</div>
           <ul className="list-disc ml-5 mt-2">
-            <li>Negotiated, assessed, and managed vendor Statements of Work (SOW) and performance, working closely with cross-functional teams to gather requirements and define project scope for omnichannel platforms.</li>
-            <li>Synthesized complex data engineering concepts to ensure seamless ERP/SAP integrations, effectively utilizing Agile methodologies to tie technical deliverables back to enterprise business objectives.</li>
+            <li>Strategic Roadmap Delivery: Spearheaded discovery workshops and executed omnichannel platform projects, translating complex business goals into technical PRDs and ROI-focused delivery roadmaps.</li>
+            <li>Omnichannel Integration: Architected the alignment of online e-commerce checkout systems with offline POS and SAP, leveraging GA4 to track user behavior and enable data-driven feature optimization.</li>
           </ul>
         </div>
         <div className="card">
           <h3 className="text-lg font-semibold">Cafe24 Corp — IT Product Manager / Systems Architect</h3>
           <div className="meta">May 2017 – Mar 2023 · Seoul, South Korea</div>
           <ul className="list-disc ml-5 mt-2">
-            <li>Large-Scale Project Execution: Managed large-scale, cross-functional global IT programs (300+ APIs), utilizing Jira (6+ years) and Smartsheet to ensure objectives were accomplished according to plan and stakeholder expectations.</li>
-            <li>Meeting Facilitation & Tracking: Coordinated and facilitated weekly team meetings, preparing agendas, minutes, and action items to ensure all tasks progressed to completion during complex ERP and SCM system integrations.</li>
-            <li>Documentation & Change Management: Developed and managed all project-related documentation in Confluence, ensuring any changes in the product lifecycle were properly documented and escalated for approval.</li>
-            <li>Data Engineering & BI: Designed a data-driven "Watchtower" system to monitor infrastructure performance; utilized PowerBI and SQL concepts to build dashboards and communicate operational efficiency to senior leadership.</li>
+            <li>API Ecosystem Expansion: Owned the product lifecycle for a massive open-API ecosystem, authoring 300+ APIs that empowered global enterprise clients (e.g., Nike, CJ, E-Land) to successfully scale their digital presence.</li>
+            <li>Enterprise System Integration: Directed the comprehensive integration of ERP, SCM, and CRM systems following the acquisition of Pimz and the EcountERP partnership, unifying complex enterprise data structures.</li>
+            <li>Proactive Risk Management: Architected a technical "Watchtower" using SQL and real-time dashboards to monitor system latency and error classes, successfully reducing incident frequency by 60% during peak traffic.</li>
+            <li>Developer Ecosystem Growth: Created and maintained extensive technical documentation in Confluence, including tri-lingual API user guides (EN/KR/JP), fostering a highly collaborative and efficient developer ecosystem.</li>
           </ul>
         </div>
         <div className="card">
   <h3 className="text-lg font-semibold">WEMAKEPRICE — Project Manager (Global E-commerce & Logistics)</h3>
   <div className="meta">Sep 2014 – May 2017 · Seoul, South Korea</div>
   <ul className="list-disc ml-5 mt-2">
-    <li>Led assigned IT projects for US and Japan warehouse operations, collaborating with external partners to gather requirements and establish initial SCM/ERP business processes.</li>
-    <li>Managed end-to-end cargo operations by utilizing root-cause analysis and problem-solving skills, successfully identifying priorities and implementing workflow automation to increase efficiency by 25%.</li>
+    <li>Global Logistics Setup: Acted as a founding member for US and Japan warehouse operations, overseeing logistics price negotiations and directing the initial setup of SCM/ERP workflows.</li>
+    <li>Workflow Automation: Managed end-to-end cross-border cargo operations, utilizing root-cause analysis to resolve delivery exceptions, automate workflows, and increase overall logistics efficiency by 25%.</li>
   </ul>
 </div>
       </section>
@@ -70,11 +70,10 @@ export default function Page() {
   <h3 className="text-lg font-semibold">Skills</h3>
   <div className="mt-2">
     {[
-      "Agile", "Scrum", "Waterfall", "SDLC", "PMI Framework", "Change Management",
-      "Scope Definition", "Budget & Financial Forecasting", "SOW Negotiation", "Risk Escalation",
-      "Stakeholder Management", "C-Level Presentations", "Weekly Status Reporting",
-      "ERP/SCM/CRM Integrations", "Data Engineering", "Infrastructure Technologies",
-      "SQL", "Python", "JavaScript", "React", "Node.js", "GA4", "Tableau", "Postman", "Jira", "Confluence", "Figma"
+      "Product & Project Management", "End-to-end SDLC", "PRD & User Stories", "Agile/Scrum", "Stakeholder Management", "A/B Testing", "API Ecosystem Design",
+      "SQL", "Python", "GA4", "System Monitoring", "MERN Stack", "JavaScript", "React", "Node.js", "Tableau",
+      "ERP", "SAP", "WMS", "POS", "CRM Integrations", "RESTful APIs", "Cross-functional Coordination", "Risk Mitigation",
+      "Cross-border Logistics", "Business Process Reengineering (BPR)", "Inventory Forecasting", "Root-cause Analysis"
     ]
       // 대소문자 무시 중복 제거
       .filter((v, i, arr) => arr.findIndex(x => x.toLowerCase() === v.toLowerCase()) === i)

@@ -19,18 +19,32 @@ export type Project = {
 export const projects: Project[] = [
   {
     slug: "truck-checkin",
-    title: "Zero-Cost Truck Check-in System (Full-Stack Web App)",
+    title: "Smart Truck Check-in System (B2B SaaS)",
     period: "Jan 2026 – Present",
     url: "https://smart-truck-checkin.koyeb.app/",
     summary:
-      "Architected and deployed an end-to-end yard management tool to resolve inbound logistics bottlenecks. Built the backend using Node.js & PostgreSQL (Supabase), deployed on a 24/7 Koyeb cloud server. Engineered a custom, zero-cost SMS gateway utilizing ntfy.sh (webhooks) and Android automation to bypass third-party API fees.",
+      "Architected, developed, and deployed a custom digital queuing MVP (MERN stack) entirely solo with a zero-cost infrastructure framework. Successfully deployed the solution to a logistics client (Ecoverse), eliminating legacy paper-based workflows.",
     highlights: [
-      "Node.js & PostgreSQL (Supabase) backend",
-      "24/7 Koyeb cloud server deployment",
-      "Zero-cost SMS gateway via ntfy.sh & Android automation",
+      "MERN stack MVP development",
+      "Zero-cost infrastructure framework",
+      "B2B deployment with 100% IP retention",
     ],
-    impact: "Resolved inbound logistics bottlenecks with a custom end-to-end tool.",
-    tags: ["Node.js", "PostgreSQL (Supabase)", "Webhooks", "Koyeb"],
+    impact: "Drove immediate operational adoption without internal IT support, boosting data accuracy.",
+    tags: ["MERN", "SaaS", "B2B", "Zero-cost"],
+    thumbnail: "/projects/cafe24-dev.png", // Using an existing one as placeholder
+  },
+  {
+    slug: "ai-kkanbu",
+    title: '"AI Kkanbu" Chatbot (GenAI Application)',
+    summary:
+      "Developed a B2C conversational AI companion utilizing the Gemini API and prompt engineering to provide highly personalized, human-like (friend/partner) interactions.",
+    highlights: [
+      "GenAI Integration via Gemini API",
+      "Prompt engineering for personalized UX",
+      "Subscription-based monetization strategy",
+    ],
+    impact: "Managing the entire product lifecycle completely solo, continuously refining conversational logic.",
+    tags: ["GenAI", "Gemini API", "Prompt Engineering"],
     thumbnail: "/projects/cafe24-dev.png", // Using an existing one as placeholder
   },
   {
