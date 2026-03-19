@@ -31,7 +31,7 @@ export const projects: Project[] = [
     ],
     impact: "Drove immediate operational adoption without internal IT support, boosting data accuracy.",
     tags: ["MERN", "SaaS", "B2B", "Zero-cost"],
-    thumbnail: "/projects/cafe24-dev.png", // Using an existing one as placeholder
+    thumbnail: "/projects/smart-truck-checkin.png", // Using an existing one as placeholder
   },
   {
     slug: "ai-kkanbu",
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     ],
     impact: "Managing the entire product lifecycle completely solo, continuously refining conversational logic.",
     tags: ["GenAI", "Gemini API", "Prompt Engineering"],
-    thumbnail: "/projects/cafe24-dev.png", // Using an existing one as placeholder
+    thumbnail: "/projects/AI-Kkanbu-chatbot.png", // Using an existing one as placeholder
   },
   {
     slug: "converse",
