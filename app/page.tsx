@@ -5,60 +5,52 @@ export default function Page() {
     <main>
       <section className="py-8">
   <h1 className="text-3xl font-semibold mb-2">
-    Senior Technical Product Manager (MBA Candidate) | E-commerce, Logistics & API Platforms
+    Global IT Project Manager (IT Systems & Operations)
   </h1>
   <p className="text-gray-600">
-    Strategic and hands-on Product Leader with 10+ years of experience. Currently an MBA Candidate at Kelley School of Business. Specializing in architecting zero-cost cloud solutions, authoring 300+ APIs, and aligning engineering teams to deliver scalable enterprise products.
+    Results-driven Global IT Project Manager with 10+ years of experience leading complex, large-scale technology projects and programs across SaaS, e-commerce, and enterprise operations. Expert in utilizing appropriate project management methodologies (Agile, Scrum, Waterfall) and adhering to strict PMO guidelines to ensure projects are delivered on time, within budget, and per stakeholder requirements. Proven ability to synthesize complex technical concepts, negotiate vendor Statements of Work (SOW), and effectively present ideas to C-level executives. Highly proficient in enterprise PM tools including Jira, Smartsheet, and MS Project Pro, dedicated to establishing cross-functional collaboration and delivering strategic business objectives.
   </p>
   <div className="mt-3 flex flex-wrap gap-2 text-sm">
-    <span className="pill">Cloud Architect (Supabase/Koyeb)</span>
-    <span className="pill">API Author (300+ Endpoints)</span>
-    <span className="pill">Zero-cost SMS gateway architecture</span>
+    <span className="pill">Agile & Scrum</span>
+    <span className="pill">PMI Framework</span>
+    <span className="pill">SOW Negotiation</span>
+    <span className="pill">ERP/SCM/CRM Integrations</span>
   </div>
 </section>
 
       <section id="experience" className="grid md:grid-cols-2 gap-4">
         <div className="card">
-          <h3 className="text-lg font-semibold">E-commerce & Platform Consultant (Independent)</h3>
-          <div className="meta">Sep 2023 – Present · Los Angeles, CA</div>
+          <h3 className="text-lg font-semibold">Ecoverse Solutions — IT Project Manager</h3>
+          <div className="meta">Jan 2026 – Present · City of Industry, CA</div>
           <ul className="list-disc ml-5 mt-2">
-            <li>Advised major retail brands on end-to-end digital transformation on Cafe24.</li>
-            <li>Architected omnichannel: BOPIS, ship-from-store, unified loyalty.</li>
-            <li>Defined API requirements and sourced 3rd-party development partners.</li>
+            <li>Lead and manage complex IT projects by strictly adhering to PMO guidelines for the full lifecycle—Initiating, Planning, Executing, Monitoring & Controlling, and Closing—to successfully deliver a custom digital queuing system.</li>
+            <li>Prepare weekly project status reports and manage approved budgets, providing accurate financial forecasting and presenting real-time actionable insights to C-level executives.</li>
           </ul>
         </div>
         <div className="card">
-          <h3 className="text-lg font-semibold">Cafe24 Corp — Product Manager</h3>
-          <div className="meta">May 2021 – Mar 2023</div>
+          <h3 className="text-lg font-semibold">Independent IT Systems Consultant</h3>
+          <div className="meta">Sep 2023 – Dec 2025 · Los Angeles, CA</div>
           <ul className="list-disc ml-5 mt-2">
-            <li>Launched open-API app store; 90% cost reduction for customization.</li>
-            <li>Built an internal API monitoring “watchtower”; reduced incident frequency by ~60%.</li>
-            <li>Co-led global YouTube Shopping expansion (visibility↑; stock +11.78%).</li>
-            <li>Resolved critical API CPU spike (90% → &lt;60%) to protect 2M+ stores.</li>
+            <li>Negotiated, assessed, and managed vendor Statements of Work (SOW) and performance, working closely with cross-functional teams to gather requirements and define project scope for omnichannel platforms.</li>
+            <li>Synthesized complex data engineering concepts to ensure seamless ERP/SAP integrations, effectively utilizing Agile methodologies to tie technical deliverables back to enterprise business objectives.</li>
           </ul>
         </div>
         <div className="card">
-          <h3 className="text-lg font-semibold">Cafe24 Corp — Project Manager</h3>
-          <div className="meta">Jul 2019 – May 2021</div>
+          <h3 className="text-lg font-semibold">Cafe24 Corp — IT Product Manager / Systems Architect</h3>
+          <div className="meta">May 2017 – Mar 2023 · Seoul, South Korea</div>
           <ul className="list-disc ml-5 mt-2">
-            <li>Consulted Nike & YG Entertainment; enabled high-transaction launches.</li>
-            <li>Contributed to YG store performance (35% of $430M revenue).</li>
+            <li>Large-Scale Project Execution: Managed large-scale, cross-functional global IT programs (300+ APIs), utilizing Jira (6+ years) and Smartsheet to ensure objectives were accomplished according to plan and stakeholder expectations.</li>
+            <li>Meeting Facilitation & Tracking: Coordinated and facilitated weekly team meetings, preparing agendas, minutes, and action items to ensure all tasks progressed to completion during complex ERP and SCM system integrations.</li>
+            <li>Documentation & Change Management: Developed and managed all project-related documentation in Confluence, ensuring any changes in the product lifecycle were properly documented and escalated for approval.</li>
+            <li>Data Engineering & BI: Designed a data-driven "Watchtower" system to monitor infrastructure performance; utilized PowerBI and SQL concepts to build dashboards and communicate operational efficiency to senior leadership.</li>
           </ul>
         </div>
         <div className="card">
-          <h3 className="text-lg font-semibold">Cafe24 Corp — Product Owner</h3>
-          <div className="meta">May 2017 – Jul 2019</div>
-          <ul className="list-disc ml-5 mt-2">
-            <li>Developed 300+ APIs; managed changelog and reliability.</li>
-            <li>Reduced API response to milliseconds via weekly control-center reviews.</li>
-          </ul>
-        </div>
-        <div className="card">
-  <h3 className="text-lg font-semibold">WEMAKEPRICE — Project Manager</h3>
-  <div className="meta">Dec 2015 – May 2017</div>
+  <h3 className="text-lg font-semibold">WEMAKEPRICE — Project Manager (Global E-commerce & Logistics)</h3>
+  <div className="meta">Sep 2014 – May 2017 · Seoul, South Korea</div>
   <ul className="list-disc ml-5 mt-2">
-    <li>Refocused Kmall24 on the U.S. market and integrated Amazon & eBay, achieving ~473% YoY revenue growth within a year.</li>
-    <li>Co-developed cross-border shipping insurance and a co-branded credit card with Shinhan Card and Mastercard, improving value for international shoppers.</li>
+    <li>Led assigned IT projects for US and Japan warehouse operations, collaborating with external partners to gather requirements and establish initial SCM/ERP business processes.</li>
+    <li>Managed end-to-end cargo operations by utilizing root-cause analysis and problem-solving skills, successfully identifying priorities and implementing workflow automation to increase efficiency by 25%.</li>
   </ul>
 </div>
       </section>
@@ -78,13 +70,11 @@ export default function Page() {
   <h3 className="text-lg font-semibold">Skills</h3>
   <div className="mt-2">
     {[
-      "Product Management", "Technical Product Management", "API Architecture", "Solutions Engineering", "E-commerce Strategy", "SDLC",
-      "Data Analysis", "Confluence/Jira", "GA (Certified)",
-      "Node.js", "Express", "PostgreSQL (Supabase)", "Cloud Deployment (Koyeb/Render)", "Python", "FastAPI",
-      "LLM Orchestration", "Vector Search (FAISS/Chroma)", "Webhooks (ntfy)",
-      "A/B testing", "Landing-page optimization", "Promotions & discounts",
-      "Checkout & payments UX", "API integrations", "Analytics instrumentation",
-      "GA4", "Excel (VLOOKUP, Pivots)", "UTM tracking", "Budget pacing & reporting",
+      "Agile", "Scrum", "Waterfall", "SDLC", "PMI Framework", "Change Management",
+      "Scope Definition", "Budget & Financial Forecasting", "SOW Negotiation", "Risk Escalation",
+      "Stakeholder Management", "C-Level Presentations", "Weekly Status Reporting",
+      "ERP/SCM/CRM Integrations", "Data Engineering", "Infrastructure Technologies",
+      "SQL", "Python", "JavaScript", "React", "Node.js", "GA4", "Tableau", "Postman", "Jira", "Confluence", "Figma"
     ]
       // 대소문자 무시 중복 제거
       .filter((v, i, arr) => arr.findIndex(x => x.toLowerCase() === v.toLowerCase()) === i)
@@ -95,7 +85,7 @@ export default function Page() {
 
       <section id="contact" className="card mt-4">
         <h3 className="text-lg font-semibold">Contact</h3>
-        <p>Email: <a className="uline" href="mailto:hankyulbaik@gmail.com">hankyulbaik@gmail.com</a> · LinkedIn: <a className="uline" href="https://www.linkedin.com/in/hankyul-baik/" target="_blank" rel="noreferrer">hankyul-baik</a></p>
+        <p>Email: <a className="uline" href="mailto:hankyulbaik@gmail.com">hankyulbaik@gmail.com</a> · Phone: (828) 205-6624 · LinkedIn: <a className="uline" href="https://www.linkedin.com/in/hankyul-baik/" target="_blank" rel="noreferrer">hankyul-baik</a> · GitHub: <a className="uline" href="https://github.com/AlexHan9" target="_blank" rel="noreferrer">AlexHan9</a></p>
         <ContactForm />
       </section>
 
